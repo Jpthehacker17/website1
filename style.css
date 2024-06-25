@@ -1,0 +1,282 @@
+body {
+    background-image: url("https://www.shutterstock.com/image-photo/hands-young-woman-beautiful-manicure-600nw-1699588681.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.search,
+.cart, 
+.user .bx{
+    font-size: 30px;
+    height: 40px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    border: solid 3px rgb(255, 98, 185);
+    background: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    color: rgb(232, 95, 171);
+    margin-top: -25px;
+    margin-left: -10px;
+    margin-right: -50px;
+    
+    position: relative;
+}
+
+.title .icon-container {
+    position: absolute;
+    right: 50px;
+
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.buttons-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px; 
+    flex-wrap: wrap;
+}
+
+.buttons-nav .home .tree,
+.buttons-nav .book .tree2,
+.buttons-nav .contact .tree3,
+.buttons-nav .socials .tree4 {
+    background: rgb(252, 225, 255);
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(232, 95, 171);
+    font-weight: 700;
+    border-radius: 30px;
+    width: 290px;
+    border-color: transparent;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.buttons-nav .home .tree:hover,
+.buttons-nav .book .tree2:hover,
+.buttons-nav .contact .tree3:hover,
+.buttons-nav .socials .tree4:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.intro {
+    font-size: 70px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: -3220px;
+    padding-right: 170px;
+    text-shadow: 0px 10px 30px black;
+}
+
+.booking {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    justify-content: center;
+    height: 80px;
+    background: rgba(255, 170, 245, 0.283);
+    margin-top: 200px;
+    margin-left: -450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-color: white;
+    border: solid;
+}
+
+.booking:hover {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    justify-content: center;
+    height: 80px;
+    background: rgba(255, 170, 245, 0.543);
+    margin-top: 200px;
+    margin-left: -450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.814);
+    border-color: white;
+    border: solid;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.images .text {
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    background: rgb(232, 95, 171);
+    color: rgb(255, 218, 247);
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+    width: 390px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+}
+
+.images {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 300vh;
+    padding: 10px;
+    margin-top: 450px;
+}
+
+.images .imgs {
+    margin-left: 20px;
+    display: grid;
+    padding-top: 10px;
+}
+
+.images .imgs .ione, 
+.images .imgs .twone {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.images .designs {
+    font-size: 15px;
+    color: rgb(232, 95, 171);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: -15px;
+}
+
+.images .designs .bx {
+    font-size: 30px;
+}
+
+.body-text {
+    font-size: 25px;
+    margin-left: 450px;
+    word-spacing: -5px;
+    line-height: 10px;
+    margin-top: -600px;
+    
+    
+   
+}
+.body-text .now {
+    word-spacing: 1px;
+    font-weight:lighter;
+    line-height: 40px;
+  
+}
+.body-text .now1 {
+    word-spacing: 1px;
+    font-weight:lighter;
+    line-height: 20px;
+    
+}
+
+.body-text .heart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.body-text .choose .heart .bx{
+    margin-left: 450px;
+    font-size: 150px;
+    line-height: 40px;
+}
+
+.body2 .shop {
+    color: rgb(232, 95, 171);
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+.products {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    transform: scale(1);
+   
+}
+
+.products .img1:hover,
+.products .img2:hover,
+.products .img3:hover {
+    box-shadow: 8px 8px 60px 8px  rgba(0, 0, 0, 0.463);
+    border-radius: 20px;
+    transform: scale(1.09);
+    transition: transform 0.3s, box-shadow 0.3s
+
+    
+}
+.products .text1,
+.products .text2,
+.products .text3 {
+    align-items: center;
+    display: grid;
+    justify-items: space-between;
+    margin-left: 100px;
+    font-size: 15px;
+
+}
+
+.button1 {
+    display: grid;
+    justify-content: center;
+
+}
+.button1 .one {
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgb(232, 95, 171);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-color: rgb(255, 242, 242);
+    border: solid;
+    color: white;
+    border-width: 0px;
+    width: 290px
+}
+
+.button1 .one:hover {
+    box-shadow: 3px 3px 30px  rgba(88, 25, 72, 0.497) ;
+    transform: scale(1.1);
+}
+
+.our-salon .title {
+    margin-top: 60px;
+    background: none; 
+    justify-content: center;
+    margin-left: -40px;
+    font-style: italic;
+    font-size: 50px;
+}
+
